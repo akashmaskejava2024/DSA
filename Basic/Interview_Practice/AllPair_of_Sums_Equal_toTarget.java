@@ -9,6 +9,7 @@ public class AllPair_of_Sums_Equal_toTarget {
         int arr[] = { 2, 4, 3, 7, 1, 9 };
         printAllPairs(arr, 10);
 
+
     }
 
     private static void printAllPairs(int[] arr, int target) {
@@ -21,7 +22,6 @@ public class AllPair_of_Sums_Equal_toTarget {
 
                     String pair = "(" + arr[i] + " , " + arr[j] + " ) ";
                     set.add(pair);
-
 
                 }
 
