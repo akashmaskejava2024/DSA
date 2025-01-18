@@ -3,6 +3,7 @@ package Basic.Interview_Practice;
 public class Reverse_Vowels {
     public static void main(String[] args) {
         String str = "akhulktuakoi";
+        System.out.println(str);
         reverseViwels(str);
 
     }
@@ -24,15 +25,13 @@ public class Reverse_Vowels {
                     first++;
                     last--;
 
-                  
                 } else {
                     last--;
                 }
 
-            }else{
+            } else {
                 first++;
             }
-           
 
         }
 
