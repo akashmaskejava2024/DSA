@@ -24,7 +24,6 @@ public class Lexicographical_Word_Frequency {
     private static HashMap<String, Integer> convertStringtoMap(String input) {
 
         Map<String, Integer> map = new HashMap<>();
-        String newStr = "";
 
         // for (int i = 0; i < input.length(); i++) {
         //     if (input.charAt(i) != ' ') {
