@@ -2,14 +2,13 @@ package Patterns;
 
 public class Number_star_pattern {
     public static void main(String[] args) {
-        int n = 41;
+        int n = 22;
 
         printNoAndStar(n);
     }
 
     private static void printNoAndStar(int n) {
 
-        
         int count = 1;
         int last = 10;
         while (count <= n) {

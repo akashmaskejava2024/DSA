@@ -2,22 +2,16 @@ package Basic.Interview_Practice;
 
 public class nextPalindromeWithoutString {
     public static void main(String[] args) {
-
         int n = 12341;
-
         nextPlindrome(n);
-
     }
 
     private static void nextPlindrome(int n) {
         int count = n + 1;
         while (count > n) {
-
             if (isPalindrome(count)) {
-
                 System.out.println(count);
                 break;
-
             } else {
                 count++;
             }
