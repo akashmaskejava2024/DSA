@@ -25,9 +25,14 @@ public class MaxSubArraySumUsingPrefixArray {
 
             currSum = i ==0 ? prefix[j] : prefix[j] - prefix[i-1];
             System.out.println(currSum); 
+            if(currSum > maxSum){
+                maxSum = currSum;
+            }
 
             }
         }
+
+        System.out.println("Maximum Sum would be : " + maxSum);
 
 
 
