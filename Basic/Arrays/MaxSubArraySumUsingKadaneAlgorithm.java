@@ -18,14 +18,18 @@ public class MaxSubArraySumUsingKadaneAlgorithm {
 
         for (int i = 0; i < arr.length; i++) {
             currSum += arr[i];
+           
+            
+            if (maxSum < currSum) {
+                maxSum = currSum;
+                lastindex = i;
+            }
+            
             if (currSum <= 0) {
                 firstIndex = i+1;
                 currSum = 0;
 
-            } else if (maxSum < currSum) {
-                maxSum = currSum;
-                lastindex = i;
-            }
+            } 
 
         }
 
