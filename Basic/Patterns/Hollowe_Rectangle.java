@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 public class Hollowe_Rectangle {
     public static void main(String[] args) {
         int l = 5;

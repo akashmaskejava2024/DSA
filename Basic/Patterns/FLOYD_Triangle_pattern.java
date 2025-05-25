@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class FLOYD_Triangle_pattern {
     public static void main(String[] args) {

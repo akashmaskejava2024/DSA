@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class NUMBER_PYRAMID_pattern {
     public static void main(String[] args) {

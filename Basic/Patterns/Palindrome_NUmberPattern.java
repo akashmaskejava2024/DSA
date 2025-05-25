@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Palindrome_NUmberPattern {
     public static void main(String[] args) {

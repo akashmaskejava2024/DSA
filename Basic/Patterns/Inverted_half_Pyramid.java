@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 public class Inverted_half_Pyramid {
     public static void main(String[] args) {
         printInvertedhalfPramid(4);

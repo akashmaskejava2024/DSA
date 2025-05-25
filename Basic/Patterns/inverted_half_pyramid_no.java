@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class inverted_half_pyramid_no {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Number_star_pattern {
     public static void main(String[] args) {

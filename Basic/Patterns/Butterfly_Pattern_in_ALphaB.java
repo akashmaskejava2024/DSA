@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Butterfly_Pattern_in_ALphaB {
 

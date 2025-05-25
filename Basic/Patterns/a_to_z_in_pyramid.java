@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 public class a_to_z_in_pyramid {
     public static void main(String[] args) {
         char a = 'A';

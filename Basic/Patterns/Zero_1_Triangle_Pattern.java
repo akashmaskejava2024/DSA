@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Zero_1_Triangle_Pattern {
 

@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 public class BUTTERFLY_pattern_In_nbyn {
     public static void main(String[] args) {
         printButterFly(9);

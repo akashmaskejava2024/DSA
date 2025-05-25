@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Diamond_Pattern {
     public static void main(String[] args) {

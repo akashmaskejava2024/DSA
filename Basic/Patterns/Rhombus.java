@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Rhombus {
     public static void main(String[] args) {

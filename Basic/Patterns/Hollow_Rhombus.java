@@ -1,4 +1,4 @@
-package Patterns;
+package Basic.Patterns;
 
 public class Hollow_Rhombus {
     public static void main(String[] args) {
