@@ -10,15 +10,15 @@ public class GetIthBit {
         System.out.println(setIthBit(n, 1));
     }
 
-    private static int getIthbit(int n, int i) {
+    public static int getIthbit(int n, int i) {
         int bitmask = 1 <<i; 
         if((n & bitmask) == 0) return 0;
         else return 1;
-
     }
 
-    private static int setIthBit(int n , int i){
-        int bitmask = i << i; 
+    public static int setIthBit(int n , int i){
+        int bitmask = 1 << i; 
         return n | bitmask;
     }
+    
 }
