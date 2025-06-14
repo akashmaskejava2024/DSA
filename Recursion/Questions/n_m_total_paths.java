@@ -1,3 +1,4 @@
+package Questions;
 public class n_m_total_paths {
 
     public static int findpath(int n, int m, int i, int j) {

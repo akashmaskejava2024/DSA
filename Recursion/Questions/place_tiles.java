@@ -1,3 +1,4 @@
+package Questions;
 public class place_tiles {
     public static int placeTiles(int n, int m){         
         if(n==m){

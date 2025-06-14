@@ -1,3 +1,4 @@
+package Questions;
 
 public class print_nthpower_with_stack_logn {
 

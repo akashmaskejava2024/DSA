@@ -1,3 +1,4 @@
+package Questions;
 public class print_keypad_combination {
     static String[] keypad = { ".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };
 

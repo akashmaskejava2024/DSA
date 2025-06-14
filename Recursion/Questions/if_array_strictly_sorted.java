@@ -1,3 +1,4 @@
+package Questions;
 public class if_array_strictly_sorted {
     public static boolean isSorted(int[] arr, int index) {
         if (index == arr.length - 1) {

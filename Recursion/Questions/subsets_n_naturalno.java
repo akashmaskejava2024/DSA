@@ -1,3 +1,4 @@
+package Questions;
 import java.util.ArrayList;
 
 public class subsets_n_naturalno {

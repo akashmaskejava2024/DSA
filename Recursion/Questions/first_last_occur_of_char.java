@@ -1,3 +1,4 @@
+package Questions;
 public class first_last_occur_of_char {
     static int first = -1;
     static int last = -1;

@@ -1,3 +1,4 @@
+package Questions;
 import java.util.HashSet;
 
 public class print_all_combinations_String {

@@ -1,3 +1,4 @@
+package Questions;
 public class all_permutations_String {
     public static void permutation(String str , String permutations){
         if(str.length() == 0    ){

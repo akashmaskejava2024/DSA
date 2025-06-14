@@ -1,3 +1,4 @@
+package Questions;
 public class move_all_x_to_end {
 
     static String onlyX = "";

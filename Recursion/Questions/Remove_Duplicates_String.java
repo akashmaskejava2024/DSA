@@ -1,3 +1,4 @@
+package Questions;
 public class Remove_Duplicates_String {
     static String newStr = "";
     public static boolean[] map = new boolean[26];

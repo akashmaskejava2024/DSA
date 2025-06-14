@@ -1,3 +1,4 @@
+package Questions;
 
 public class print_ntothepowerx {
     static int ans = 1;

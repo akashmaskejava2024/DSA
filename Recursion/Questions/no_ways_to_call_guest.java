@@ -1,3 +1,4 @@
+package Questions;
 public class no_ways_to_call_guest {
    
     public static int callGuest(int n){
