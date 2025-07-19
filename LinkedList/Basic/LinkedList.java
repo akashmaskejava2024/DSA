@@ -341,15 +341,71 @@ public class LinkedList {
         return mergedLL.next;
     }
 
+    public Node midNodeForZigzagLL(Node head) {
+        Node slow = head;
+        Node fast = head.next;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        Node prevNode = slow;
+        return prevNode;
+    }
+
+    public void zigzagLinkedList() {
+        if (head == null || head.next == null || head.next.next == null) {
+            return;
+        }
+
+        // get the middle node
+        Node midNode = midNodeForZigzagLL(head);
+
+        // reverse the rightHalf
+        Node prevNode = null;
+        Node currNode = midNode.next;
+        midNode.next = null; // important to break the link
+        Node nextNode;
+        while (currNode != null) {
+            nextNode = currNode.next;
+            currNode.next = prevNode;
+            prevNode = currNode;
+            currNode = nextNode;
+        }
+        // implement the zigzag pattern
+        Node rightHead = prevNode;
+        Node leftHead = head;
+        Node nextR, nextL;
+        while (leftHead != null && rightHead != null) {
+            // assign the zigzag pattern
+            nextL = leftHead.next;
+            leftHead.next = rightHead;
+            nextR = rightHead.next;
+            // edge case: when left is shorter (odd length list)
+            if (nextL == null)
+                break;
+
+            rightHead.next = nextL;
+
+            leftHead = nextL; // update the lefthead and righthead
+            rightHead = nextR;
+
+        }
+
+        
+
+    }
+
     public static void main(String[] args) {
 
         LinkedList ll = new LinkedList();
-        ll.addFirst(1);
-        ll.addFirst(2);
-        ll.addFirst(2);
-        ll.addFirst(1);
+        ll.addLast(1);
+        ll.addLast(2);
+        ll.addLast(3);
+        ll.addLast(4);
+        ll.addLast(5);
 
-        head = ll.mergeSort(head);
+        ll.zigzagLinkedList();
         ll.print();
 
     }
