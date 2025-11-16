@@ -28,20 +28,5 @@ public class SearchInSortedMatrix {
             }
         }
         System.out.println((col+1) + " " + (row + 1) + " " + matrix[row][col]);
-
-        int col = 0;
-        int row = matrix.length - 1;
-
-        while(matrix[row][col] != key){
-            if(key < matrix[row][col] ){
-                row--;
-            } else {
-                col++;
-            }
-        }
-
-                System.out.println((col+1) + " " + (row + 1) + " " + matrix[row][col]);
-
-
     }
 }

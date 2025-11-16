@@ -23,7 +23,7 @@ public class MaxSubArraySumUsingPrefixArray {
         for(int i = 0;i<arr.length; i++){
             for(int j = i+1; j<arr.length; j++){
 
-            currSum = i ==0 ? prefix[j] : prefix[j] - prefix[i-1];
+            currSum = i == 0 ? prefix[j] : prefix[j] - prefix[i-1];
             System.out.println(currSum); 
             if(currSum > maxSum){
                 maxSum = currSum;
